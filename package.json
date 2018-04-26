@@ -1,0 +1,11 @@
+{
+  "name": "@spearhook/plugin-postcss",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "viveleroi",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^6.0.21",
+    "through2": "^2.0.3"
+  }
+}
