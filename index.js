@@ -12,7 +12,7 @@ module.exports = function(opts) {
             postcss(opts).process(file.contents, {
                 from: file.name
             }).then((result) => {
-                file.contents = new Buffer(result.css);
+                file.contents = Buffer.from(result.css);
 
                 if (result.error) {
                     this.emit('spearhook:error', {
