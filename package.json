@@ -4,8 +4,10 @@
   "main": "index.js",
   "author": "viveleroi",
   "license": "MIT",
+  "peerDependencies": {
+    "postcss": "^7.x"
+  },
   "dependencies": {
-    "postcss": "^7.0.14",
-    "through2": "^3.0.0"
+    "through2": "^4.0.2"
   }
 }
