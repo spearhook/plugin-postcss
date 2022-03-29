@@ -1,12 +1,12 @@
 {
   "name": "@spearhook/plugin-postcss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "viveleroi",
   "license": "MIT",
   "type": "module",
   "peerDependencies": {
-    "postcss": "^7.x"
+    "postcss": "^8.x"
   },
   "dependencies": {
     "through2": "^4.0.2"
